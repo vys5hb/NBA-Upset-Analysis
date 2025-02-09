@@ -15,21 +15,21 @@ Underdog teams playing away win 28.20% of the time, while underdog teams playing
 This can be attributed to many factors such as crowd pressure, players being comfortable at home, and travel.
 
 
-![image](https://github.com/user-attachments/assets/b6e9d80f-9009-49b5-a047-101212e19c4c)
+![image](https://github.com/user-attachments/assets/f2eabeb4-7a2a-4c4a-abbd-39d77ca14775)
 ![image](https://github.com/user-attachments/assets/a6baa62b-00e8-42fb-987d-6f584d8878b6)
 
 
 Underdog teams in the bottom 25th percentile of win percentage win 26.74% of the time, while underdog teams in the top 25th percentile win 69.12% of the time. We see a continual increase in win percentage as we increase win percentage. This makes sense as teams with a higher win percentage are better teams and in the occurence where they are underdogs, their win percentage as underdogs is very high.
 
 
-![image](https://github.com/user-attachments/assets/9d8f6950-96fb-4eed-b522-ca679c778f3a)
+![image](https://github.com/user-attachments/assets/324dca11-83b9-4afa-a951-d93bce342d5d)
 ![image](https://github.com/user-attachments/assets/d533ecc2-c61a-4203-9ce1-a0cdd651205f)
 
 
 Underdog teams playing at home in the top 25th percentile win 81.05% of the time, while underdog teams playing at home in the bottom 25th percetile win only 50.57% of the time. Underdog teams playing away in the top 25th percentile win 42.13% of the time, while underdog teams playing away in the bottom 25th percentile win 18.23% of the time. I view these results as very shocking, even the best underdog teams playing away win less often than the worst underdog teams playing at home. 
 
 
-![image](https://github.com/user-attachments/assets/4369d07e-3da0-4ca2-a13d-998ee2839a96)
+![image](https://github.com/user-attachments/assets/9db38ccb-0c7b-4a91-bd0e-f17b238f89cc)
 ![image](https://github.com/user-attachments/assets/122c83ba-af89-451a-9f13-08f1fc1f368d)
 
 
