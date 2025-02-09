@@ -13,6 +13,8 @@ The overall upset rate was 49.10%.
 
 Underdog teams playing away win 28.20% of the time, while underdog teams playing at home win 70.79% of the time. 
 This can be attributed to many factors such as crowd pressure, players being comfortable at home, and travel.
+
+
 ![image](https://github.com/user-attachments/assets/b6e9d80f-9009-49b5-a047-101212e19c4c)
 ![image](https://github.com/user-attachments/assets/a6baa62b-00e8-42fb-987d-6f584d8878b6)
 
