@@ -1,13 +1,13 @@
 # NBA Upset Analysis
 By: Ethan Ooi
 
-NBA Upset Analysis is a model created to analyze key factors that influence underdog wins. An underdog is a team which has a Vegas betting spread greater than 0, this implies that the team is an underdog to win the game. An upset is defined by an underdog team winning their respective game. The results are pulled from data from NBA Regular and Post-Season games from the 2007-08 season to the 2017-18 season. The factors used are a team's winning percentage (`w_pct`) and a team's home-court advantage (`is_home`). A team's win percentage was used by categorizing a team into four separate bins. Low, Mid-Low, Mid-High, and High. These categories mean that a team's win percentage is in the bottom 25th percentile, 25-50th percentile, 50-75th percentile, and top 25th percentile, respectively. This repository contains all the code for the project in __NBA_Database.ipynb__, as well as the csv files in __nba_data__. 
-The folder __created_datasets__ contains any csv files created in __NBA_Database.ipynb__.
+NBA Upset Analysis is a model created to analyze key factors that influence underdog wins. An underdog is a team which has a Vegas betting spread greater than 0, this implies that the team is an underdog to win the game. An upset is defined by an underdog team winning their respective game. The results are pulled from data from NBA Regular and Post-Season games from the 2007-08 season to the 2017-18 season. The factors used are a team's winning percentage (`w_pct`) and a team's home-court advantage (`is_home`). A team's win percentage was used by categorizing a team into four separate bins. Low, Mid-Low, Mid-High, and High. These categories mean that a team's win percentage is in the bottom 25th percentile, 25-50th percentile, 50-75th percentile, and top 25th percentile, respectively. This repository contains all the code for the project in [NBA_Database.ipynb](NBA_Database.ipynb), as well as the csv files in [nba_data](nba_data). 
+The folder [created_datasets](created_datasets) contains any csv files created in [NBA_Database.ipynb](NBA_Database.ipynb).
 
-# Methodology
-My data was obtained using *NBA Historical Stats and Betting Data* from Kaggle. This dataset can be found in the GitHub under __nba-historical-stats-and-betting-data.zip__. For this project, I only needed two datasets which can be found in __nba_data__. I took this dataset and cleaned it of unnecessary variables like player stats and game stats as you would not know these stats before the game happened. Discussed before, I used Vegas betting spreads where a positive spread is an underdog and a negative spread is a favorite. Using the data of betting spreads from a separate dataset, I merged the two datasets found in __nba_data__ on `game_id` and created a new variable, `is_upset`, where the team with a `spread1` > 0 and a win would be an upset.
+## Methodology
+My data was obtained using *NBA Historical Stats and Betting Data* from Kaggle. This dataset can be found in the GitHub under [nba-historical-stats-and-betting-data.zip](nba-historical-stats-and-betting-data.zip). For this project, I only needed two datasets which can be found in [nba_data](nba_data). I took this dataset and cleaned it of unnecessary variables like player stats and game stats as you would not know these stats before the game happened. Discussed before, I used Vegas betting spreads where a positive spread is an underdog and a negative spread is a favorite. Using the data of betting spreads from a separate dataset, I merged the two datasets found in [nba_data](nba_data) on `game_id` and created a new variable, `is_upset`, where the team with a `spread1` > 0 and a win would be an upset.
 
-# Results
+## Results
 The overall upset rate was 49.10%.
 
 
@@ -34,5 +34,5 @@ Underdog teams playing at home in the top 25th percentile win 81.05% of the time
 
 
 
-# Discussion + Conclusion
+## Discussion + Conclusion
 It shows that both team win percentage and home-court advantage plays a huge role in whether a team will pull off an upset. One take-away from this is if you were to bet a flat amount on every underdog team that played at home, statistically you would be making profit in the long run. Especially since underdogs pay out minimum of 2x your bet and tend to be around 2.5-3.5x of your bet. And, the overall upset rate being so close to 50%, does this mean that in a large sample size, there truly is no difference when picking teams to win if over so many games, underdogs win 49.10% of the time.
